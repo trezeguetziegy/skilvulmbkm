@@ -1,0 +1,152 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.logo h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 40px;
+    font-weight: 250;
+    color: #E23E57;
+}
+
+nav ul  {
+    display: flex;
+    padding-left: 0;
+    justify-content: center;
+    gap: 3rem 1rem;
+}
+
+nav li{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+nav a{
+    color: #88304E;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 999px;
+}
+
+nav a:hover{
+    text-decoration: underline #E23E57;
+}
+
+nav a:hover::after{
+    text-decoration: underline #88304E;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    display: flex;
+    margin: 50px;
+    gap: 100px;
+}
+
+.card-header {
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #E23E57;
+    color: white;
+    box-shadow: 2px 4px 5px #272343;
+}
+
+.card-desc {
+    
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.card-desc a{
+    text-decoration: none;
+    color: #E23E57;
+   
+}
+
+.card-desc a:hover{
+    color: #88304E;
+    font-weight: bold;
+}
+.card-content{
+    display: flex;
+    align-items: center;
+    margin: 40px;
+}
+
+.card-content:hover{
+    background-color: #E23E57;
+    color: white;
+    border-radius: 15px;
+}
+
+.card-content:hover h2{
+    color: white;
+}
+
+footer{
+    text-align: center;
+    margin-top: auto;
+    color: #88304E;
+}
+
+footer .iconSosmed-footer a {
+    color: #E23E57;
+    margin: 0 8px;
+    font-size: 32px;
+}
+
+main aside {
+    align-self: center;
+}
+
+.profile-card{
+    align-items: center;
+    padding: 40px;
+}
+
+.profile-card header{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    background-color: #88304E;
+    padding: 10px;
+    
+}
+
+.profile-card table{
+    color: white;
+}
+
+.profile-card section h2{
+    color: white;
+}
+
+.profile-pic img{
+    border-radius: 180px;
+}
+
+.profile-card h2{
+    text-align: center;
+}
+
+.profile-card img{
+    max-width: 170px;
+    margin: auto;
+}
+
+h3{
+    text-align: center;
+    opacity: 0.8;
+    color: #E23E57;
+    margin-top: 50px;
+}
